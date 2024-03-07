@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Search Extension</title>
+  <link rel="stylesheet" href="pure-min.css">
+  <link rel="icon" href="./images/favicon-16x16.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+  <div class="container">
+    <h1 class="heading">Welcome to ecospace</h1>
+    <p class="text">If the iFrame below is currently down, you can find assistance through the following links:<i
+        class='bx bx-link-alt'></i> </p>
+    <p class="text">If you encounter any issues, don't hesitate to reach out:<i class='bx bxs-phone-outgoing'></i> </p>
+    <!-- &#128241; &#128295;-->
+    <h3 class="main-section">
+      <ul>
+        <li>
+          <a class="nav" href="http://ec2-3-95-48-185.compute-1.amazonaws.com/ecospace/node-js-base-app"
+            target="_blank">App Code Repo</a>
+        </li>
+        <li><a class="nav" href="http://alpha.l3squad.com:3000/" target="_blank">NodeJS App</a>
+        <li><a class="nav" href="http://3.95.48.185:5000/" target="_blank">Manage Database</a>
+        <li><a class="nav" href="http://ec2-3-95-48-185.compute-1.amazonaws.com/ecospace/docs/-/wikis/ecospace"
+            target="_blank">WIKI</a>
+        </li>
+        </li>
+        <li>
+          Task: <a class="nav" href="http://alpha-task.l3squad.com/" target="_blank">BeeHive</a>
+        </li>
+        <li>New Repo App: <a class="nav" href="http://alpha-scm.l3squad.com/" target="_blank">NectarBlend</a></li>
+        <li>Wiki: <a class="nav" href="http://alpha-wiki.l3squad.com:8000/" target="_blank">Waggle</a>
+        </li>
+        <li>LMS: <a class="nav" href="http://alpha-wiki.l3squad.com/tandem_train/" target="_blank">TandemTrain</a>
+        </li>
+        <li>Zoom: <a class="nav" href="http://alpha.l3squad.com:3000/go/to-meeting" target="_blank">Join Meeting</a>
+        </li>
+        <div class="divider"></div>
+        <li>Common Base Sheet:
+          <a href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit"
+            target="_blank">Common Base
+            Setup Sheet</a>
+        </li>
+        <li>Ideas: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=1727871852"
+            target="_blank">Sheet Link</a>
+        </li>
+        <li>Issues: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=1935071553"
+            target="_blank">Issues Sheet</a>
+        </li>
+        <li>Sync Up: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=172872435"
+            target="_blank">Sync Up Sheet</a>
+        </li>
+        <li>
+          My Task: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=1776689018"
+            target="_blank">Task Sheet</a>
+        </li>
+        <li>
+          Session: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=788421164"
+            target="_blank">Session Sheet</a>
+        </li>
+        <li>
+          General: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=0"
+            target="_blank">General Sheet</a>
+        </li>
+        <li>
+          Members: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=407206932"
+            target="_blank">Members Sheet</a>
+        </li>
+        <li>
+          Sleep Mode: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=427256242"
+            target="_blank">Sleep Mode Sheet</a>
+        </li>
+        <li>
+          Services Ports: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=316196699"
+            target="_blank">Services Sheet</a>
+        </li>
+        <li>
+          Member Device: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=1455222126"
+            target="_blank">Member Device Sheet</a>
+        </li>
+        <li>
+          Membership: <a class="nav"
+            href="https://docs.google.com/spreadsheets/d/1BE-kWtydbyiweuD-a6hrVsgVAF3LEcQUUf7kafMdCqs/edit#gid=1218671242"
+            target="_blank">Membership Sheet</a>
+        </li>
+      </ul>
+    </h3>
+    <footer>
+      <h2>From Hub</h2>
+      <div class="spinner"></div>
+      <p class="note">Note: Inform us if hub is down</p>
+      <iframe id="my-iframe"></iframe>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
